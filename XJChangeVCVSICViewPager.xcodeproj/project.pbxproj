@@ -15,6 +15,12 @@
 		E2C639AF1E8DF8C2007354B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C639AD1E8DF8C2007354B3 /* LaunchScreen.storyboard */; };
 		E2C639BA1E8DF8C2007354B3 /* XJChangeVCVSICViewPagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C639B91E8DF8C2007354B3 /* XJChangeVCVSICViewPagerTests.m */; };
 		E2C639C51E8DF8C2007354B3 /* XJChangeVCVSICViewPagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C639C41E8DF8C2007354B3 /* XJChangeVCVSICViewPagerUITests.m */; };
+		E2C639D81E8DFAC6007354B3 /* XJChangeVC_ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C639D71E8DFAC6007354B3 /* XJChangeVC_ScrollViewController.m */; };
+		E2C639DE1E8DFC4C007354B3 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C639DD1E8DFC4C007354B3 /* ChildViewController.m */; };
+		E2C639E11E8DFC75007354B3 /* XJChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C639E01E8DFC75007354B3 /* XJChangeViewController.m */; };
+		E2DA9D831E8E3BDC00D08C33 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA9D821E8E3BDC00D08C33 /* ViewPagerController.m */; };
+		E2DA9D861E8E3C1C00D08C33 /* ICViewPagerText.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DA9D851E8E3C1C00D08C33 /* ICViewPagerText.m */; };
+		E2DA9D881E8E3F4100D08C33 /* titleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2DA9D871E8E3F4100D08C33 /* titleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		E2C639C01E8DF8C2007354B3 /* XJChangeVCVSICViewPagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XJChangeVCVSICViewPagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C639C41E8DF8C2007354B3 /* XJChangeVCVSICViewPagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XJChangeVCVSICViewPagerUITests.m; sourceTree = "<group>"; };
 		E2C639C61E8DF8C2007354B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C639D61E8DFAC6007354B3 /* XJChangeVC_ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJChangeVC_ScrollViewController.h; sourceTree = "<group>"; };
+		E2C639D71E8DFAC6007354B3 /* XJChangeVC_ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJChangeVC_ScrollViewController.m; sourceTree = "<group>"; };
+		E2C639DC1E8DFC4C007354B3 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		E2C639DD1E8DFC4C007354B3 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		E2C639DF1E8DFC75007354B3 /* XJChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJChangeViewController.h; sourceTree = "<group>"; };
+		E2C639E01E8DFC75007354B3 /* XJChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJChangeViewController.m; sourceTree = "<group>"; };
+		E2DA9D811E8E3BDC00D08C33 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		E2DA9D821E8E3BDC00D08C33 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
+		E2DA9D841E8E3C1C00D08C33 /* ICViewPagerText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICViewPagerText.h; sourceTree = "<group>"; };
+		E2DA9D851E8E3C1C00D08C33 /* ICViewPagerText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICViewPagerText.m; sourceTree = "<group>"; };
+		E2DA9D871E8E3F4100D08C33 /* titleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = titleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,18 @@
 		E2C6399E1E8DF8C2007354B3 /* XJChangeVCVSICViewPager */ = {
 			isa = PBXGroup;
 			children = (
+				E2C639D51E8DFA29007354B3 /* tools */,
 				E2C639A21E8DF8C2007354B3 /* AppDelegate.h */,
 				E2C639A31E8DF8C2007354B3 /* AppDelegate.m */,
 				E2C639A51E8DF8C2007354B3 /* ViewController.h */,
 				E2C639A61E8DF8C2007354B3 /* ViewController.m */,
+				E2C639DF1E8DFC75007354B3 /* XJChangeViewController.h */,
+				E2C639E01E8DFC75007354B3 /* XJChangeViewController.m */,
+				E2DA9D841E8E3C1C00D08C33 /* ICViewPagerText.h */,
+				E2DA9D851E8E3C1C00D08C33 /* ICViewPagerText.m */,
+				E2DA9D871E8E3F4100D08C33 /* titleView.xib */,
+				E2C639DC1E8DFC4C007354B3 /* ChildViewController.h */,
+				E2C639DD1E8DFC4C007354B3 /* ChildViewController.m */,
 				E2C639A81E8DF8C2007354B3 /* Main.storyboard */,
 				E2C639AB1E8DF8C2007354B3 /* Assets.xcassets */,
 				E2C639AD1E8DF8C2007354B3 /* LaunchScreen.storyboard */,
@@ -138,6 +163,25 @@
 				E2C639C61E8DF8C2007354B3 /* Info.plist */,
 			);
 			path = XJChangeVCVSICViewPagerUITests;
+			sourceTree = "<group>";
+		};
+		E2C639D51E8DFA29007354B3 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				E2DA9D801E8E3BDC00D08C33 /* ICViewPager */,
+				E2C639D61E8DFAC6007354B3 /* XJChangeVC_ScrollViewController.h */,
+				E2C639D71E8DFAC6007354B3 /* XJChangeVC_ScrollViewController.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		E2DA9D801E8E3BDC00D08C33 /* ICViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				E2DA9D811E8E3BDC00D08C33 /* ViewPagerController.h */,
+				E2DA9D821E8E3BDC00D08C33 /* ViewPagerController.m */,
+			);
+			path = ICViewPager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +293,7 @@
 				E2C639AF1E8DF8C2007354B3 /* LaunchScreen.storyboard in Resources */,
 				E2C639AC1E8DF8C2007354B3 /* Assets.xcassets in Resources */,
 				E2C639AA1E8DF8C2007354B3 /* Main.storyboard in Resources */,
+				E2DA9D881E8E3F4100D08C33 /* titleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +319,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2C639A71E8DF8C2007354B3 /* ViewController.m in Sources */,
+				E2DA9D831E8E3BDC00D08C33 /* ViewPagerController.m in Sources */,
 				E2C639A41E8DF8C2007354B3 /* AppDelegate.m in Sources */,
+				E2C639D81E8DFAC6007354B3 /* XJChangeVC_ScrollViewController.m in Sources */,
 				E2C639A11E8DF8C2007354B3 /* main.m in Sources */,
+				E2C639E11E8DFC75007354B3 /* XJChangeViewController.m in Sources */,
+				E2C639DE1E8DFC4C007354B3 /* ChildViewController.m in Sources */,
+				E2DA9D861E8E3C1C00D08C33 /* ICViewPagerText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +557,7 @@
 				E2C639CB1E8DF8C2007354B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2C639CC1E8DF8C2007354B3 /* Build configuration list for PBXNativeTarget "XJChangeVCVSICViewPagerTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +566,7 @@
 				E2C639CE1E8DF8C2007354B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2C639CF1E8DF8C2007354B3 /* Build configuration list for PBXNativeTarget "XJChangeVCVSICViewPagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +575,7 @@
 				E2C639D11E8DF8C2007354B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
